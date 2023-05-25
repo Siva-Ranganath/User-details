@@ -1,0 +1,13 @@
+GET http://localhost:3001/data/
+###
+
+POST http://localhost:3001/newdata/ 
+Content-Type: application/json
+
+{
+  "id": "6",
+  "name": "Jurassic Park",
+  "email": "Jeff Goldblum",
+  "gender": "Male",
+  "status": "Active"
+}
